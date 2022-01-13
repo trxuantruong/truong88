@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giỏ hàng</title>
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/giohang.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="fontawesome-free-5.15.4-web/fontawesome-free-5.15.4-web/css/all.css">
+
+    
+    
+</head>
+<body>
+    <section id="header">
+        <!-- Khối chứa logo -->
+        <div id="logo">
+            <a href="#"><img src="img/header/logo.png" alt=""></a>
+        </div>
+        <!-- Phần liên kết, menu, tìm kiếm -->
+        <div class="header-top">
+            <!-- Khung tìm kiếm -->
+            <div id="searchform" class="clearfix">
+                <!-- Liên kết Đăng ký/Login-->
+                <div class="item" id="register">
+                    <a href="#">Đăng nhập / Đăng ký</a>
+                </div>
+                <!-- Khung nhập nội dung tìm kiếm -->
+                <div class="item">
+                    <input class="search_textbox" type="text" value="Search">
+                    <div class="search_button">
+                        <a href="#"><img src="img/header/searchbtn.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+            <!-- menu -->
+            <div id="menu" class="clearfix">
+                <ul>
+                    <li><a href="#">Trang chủ</a></li>
+                    <li><a href="#">Đặt hàng online</a></li>
+                    <li><a class="menu-active" href="#">Menu</a></li>
+                    <li><a href="#">Giới thiệu</a></li>
+                    <li><a href="#">Liên hệ</a></li>
+                    <li><a href="#">Tuyển dụng</a></li>
+                    <li class="cartimg" ><img src="img/header/cart.png" alt=""></li>
+                </ul>
+            </div>
+            <!-- Ngôn ngữ hiển thị -->
+            <div id="flag">
+                <a href="#"><img src="img/header/vi.png" alt="VN" title="Vietnamese"></a>
+                <a href="#"><img src="img/header/uk.png" alt="UK" title="English"></a>
+                <a href="#"><img src="img/header/kor.png" alt="Kr" title="Korean"></a>
+                <a href="#"><img src="img/header/ja.png" alt="Jp" title="Japanese"></a>
+            </div>
+        </div>
+
+    </section>
+    <!---->
+
+<section id="main">
+  <div id="body_content">
+    <div class="content-title">
+      <h2 class="page_title">Giỏ hàng</h2>
+    </div>
+    <div id="main_shopping_cart">
+      <div class="cart_part_1">
+        <table class="tbl_cart_order">
+          <tr>
+            <th></th>
+            <th>Sản phẩm</th>
+            <th>Đơn giá</th>
+            <th>Số lượng</th>
+            <th>Thành Tiền</th>
+            <th></th>
+          </tr>
+          <tr>
+            <td><img src="img/shopping_cart/Glass.png" alt="Glass"></td>
+            <td>
+              <div class="product_name">apple, mint, celery + lime juice</div>
+              <div class="product_size">  + Extra</div>
+            </td>
+            <td><div class="product_price">187,500 VND</div></td>
+            <td><input class="product_qty" type="text" value="2"></td>
+            <td><div class="product_price">375,000 VND</div></td>
+            <td><a href="#" class="btn_close"><i class="fas fa-times-circle"></i></a></td>
+          </tr>
+          <tr>
+            <td><img src="img/shopping_cart/dishes1.png" alt="dishes1"></td>
+            <td><div class="product_name">been and glass noodle salad</div></td>
+            <td><div class="product_price">225,000 VND</div></td>
+            <td><input class="product_qty" type="text" value="1"></td>
+            <td><div class="product_price">225,000 VND</div></td>
+            <td><a href="#" class="btn_close"><i class="fas fa-times-circle"></i></a></td>
+          </tr>
+          </table>
+      </div>
+      <div class="add_other_pro">
+          <span>Đặt thêm</span>
+      </div>
+      <div class="cart_part_2">
+          <div class="related_pro">
+              <div class="text_title">
+                  <span>Based on your selection, you may be interested in the following item:</span>
+              </div>
+              <div class="product-image">
+                  <div class="img-detail">
+                      <img src="img/shopping_cart/dishes2.png" alt="Glass" />
+                  </div>
+                  <div class="img-descript">
+                      <div class="title-product">
+                          <span>beef lettuce wraps</span>
+                      </div>
+                      <div class="price-product">
+                          <span>price:</span>
+                          <b>300,000 VND</b>
+                      </div>
+                      <div class="btn-adder">
+                          <a class="btn-submit" type="button">Add to cart</a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="discount_code">
+              <div class="font1colum2">DISCOUNT CODE</div>
+              <div class="font2colum2">Enter your coupon code if you have one</div>
+              <div class="input_code">
+                  <input class="textinput" type="text" name="couponcode">
+                  <button class="btn-submit" type="button">SUBMIT</button>
+              </div>
+              <div class="font1colum2">GIFTS CARDS</div>
+              <div class="font2colum2">Enter the gift card code</div>
+              <div class="input_code">
+                  <input class="textinput" type="text" name="couponcode">
+                  <button class="btn-submit" type="button" >SUBMIT</button>
+              </div>
+          </div>
+          <div class="proceed_checkout">
+              <div class="item">
+                  <div class="title">Subtotal</div>
+                  <div class="price"> 600,000 VND</div>
+              </div>
+              <div class="item">
+                <div class="title">Voucher</div>
+                <div class="price"> - 50,000 VND</div>
+              </div>
+              <div class="item total-price">
+                <div class="title">Brand Total</div>
+                <div class="price"> 550,000 VND</div>
+              </div>
+              <div class="item">
+                  <a class="btn-submit" href="checkout.html">Proceed to checkout</a>
+              </div>
+          </div>
+      </div>
+    </div>
+</section>
+
+
+    
+
+    <!---->
+    <section id="footer">
+        <!-- Thông tin liên hệ-->
+        <div class="left-footer">
+        <ul>
+            <li class="item">@ The Al Fresco's Group 2019</li>
+            <li class="item"><a class="icon_face"><i class="fab fa-facebook"></i></a></li>
+            <li class="item"><a class="icon_youtube"><i class="fab fa-youtube-square"></i></a></li>
+            <li class="item"><a class="icon_app"><i class="fab fa-app-store"></i></a></li>
+        </ul>
+        </div>
+        <!-- Liên kết trang phụ-->
+        <div class="right-footer">
+            <ul>
+                <li><a href="#">Sơ đồ site</a></li>
+                <li><a href="#">nhượng quyền</a></li>
+                <li><a href="#">chính sách bảo mật</a></li>
+                <li><a href="#">điều kiện sử dụng</a></li>
+                <li><a href="#">head office</a></li>
+            </ul>
+        </div>
+    </section>
+   
+
+</body>
+</html>
